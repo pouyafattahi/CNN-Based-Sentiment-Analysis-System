@@ -1,5 +1,5 @@
 %% CMPT-741 template code for: sentiment analysis base on Convolutional Neural Network
-% Author: Samaneh Khakshour, Pouya Fattahi
+% Author: Pouya Fattahi, Samaneh Khakshour
 % Date: November 30, 2016
 clc;
 %clear all;

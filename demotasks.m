@@ -6,8 +6,7 @@ separater = '::';
 %words = [];
 datatest = cell(1000, 4); 
 
-fid = fopen('C:\Users\Sam\Desktop\CMPT 741\project\DataMining\sample_test.txt', 'r');
-% fid = fopen('C:\Users\yroshan\Desktop\samaneh\TextProject\train.txt', 'r');
+fid = fopen('C:\Users\pou\Desktop\CMPT 741\project\DataMining\sample_test.txt', 'r');
 line = fgets(fid);
 
 ind = 1;
@@ -70,7 +69,7 @@ end
 
 
 %% Testing
-fid = fopen('C:\Users\Sam\Desktop\CMPT 741\project\DataMining\sample_eval.txt', 'w');
+fid = fopen('C:\Users\pou\Desktop\CMPT 741\project\DataMining\sample_eval.txt', 'w');
 formatSpec = '%d::%d\r\n';
 corrects=0;
 for j=1:test_length 
