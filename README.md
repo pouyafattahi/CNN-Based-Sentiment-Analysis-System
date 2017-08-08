@@ -2,11 +2,12 @@
 
 The CNN system in this work is implemented using an available open source Matlab library, MathConvNet,
 and is optimized through a set of trial-and-error experiments. The performance of the designed CNN is then
-compared with recent similar publications to demonstrate its effectiveness. </br>
+compared with recent similar publications to demonstrate its effectiveness. 
 
-This project using CNN to create a model to find the sentiment of a comment.</br>
+This project using CNN to create a model to find the sentiment of a comment.
 
-#CNN Architecture
+## CNN Architecture
+
 To implement the CNN architecture the review sentences are to be pre-processed to have a proper format as
 inputs of the CNN. To do this, the tokenized sentences are being used, which includes all the words and symbols
 in a sentence as a token separated from each other by spaces. Each sentence is then being converted into a
@@ -17,7 +18,8 @@ matrices. The numerical representation is used as an input for the CNN. For the 
 the inputs which have smaller dimension than the maximum filter size of CNN, are padded so that all the CNN
 inputs have a minimum dimension.
 
-#Datasets
+## Datasets
+
 The initial dataset which was provided for this project was a Movie Review database including 6000 labeled
 data. This dataset was utilized in order to design the CNN system and train it to achieve a reasonable accuracy.
 However, in order to increase the accuracy of the sentiment classification, similar databases were utilized to
